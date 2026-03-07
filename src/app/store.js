@@ -4,5 +4,6 @@ import todoReducer from '../features/todoSlice'
 export const store = configureStore({
     reducer:{
         todo: todoReducer,
+        
     }
 })
